@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Marathon_Registration</title>
+  </head>
+
+  <body>
+
+    <section>
+      <h1>Race Registration</h1>
+    </section>
+
+    <form>
+      <section>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="first name" value="" placeholder="enter first name" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="last name" value="" placeholder="enter last name" required>
+
+      </section>
+
+      <section>
+        <h3>Select a Race: </h3>
+        <div><input id="fr" name="distance" type="radio"><label for="fr">Fun Run 5k</label></div>
+        <div><input id="hm" name="distance" type="radio"><label for="hm">Half Marathon</label></div>
+        <div><input id="fm" name="distance" type="radio"><label for="fm">Full Marathon</label></div>
+      </section>
+
+      <section>
+        <div>
+          <label for="email">Email:</label>
+          <label for="password">Password:</label>
+          <input id="email" type="email" name="email" placeholder="enter email" required>
+          <input id="password" type="password" name="password" title="5 to 8" pattern=".{,8}" placeholder="enter password" required>
+        </div>
+      </section>
+
+      <section>
+        <label for="age">Select Age Group</label>
+        <select class="age" name="age">
+          <option value="age" selected>Under Age</option>
+          <option value="18-30">18-30</option>
+          <option value="30-50">30-50</option>
+          <option value="50+">50+</option>
+        </select>
+      </section>
+      <button type="submit">Submit</button>
+    </form>
+
+  </body>
+
+</html>

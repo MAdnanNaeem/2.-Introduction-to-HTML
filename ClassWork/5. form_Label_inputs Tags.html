@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+</head>
+<h1>SignIn</h1>
+
+<body>
+  <div class="">
+    <h2>Just Inputs</h2>
+
+  <!-- Just Inputs -->
+  <input type="email" name="L_email" value="@gmail.com">
+  <input type="password" name="L_password" placeholder="password">
+  <button type="button" name="L_button">Login</button>
+</div>
+<div class="">
+  <h2>Inputs inside form tag</h2>
+
+  <!-- Inputs inside form action_(website/URL) (get/post)_Method tag  -->
+  <form class="" action="http://google.com" method="get">
+    <input type="email" name="email" placeholder="email" autocomplete="email">
+    <input type="password" name="password" placeholder="password">
+    <button type="submit">Login</button>
+  </form>
+</div>
+<div class="">
+
+
+  <h2>1st Way Inputs inside Label and form tag</h2>
+  <!-- 1st Way Inputs inside Label and form tag  -->
+
+  <form>
+
+    <label for="">Email:
+      <input type="email" name="email:" value="" autocomplete="email">
+    </label>
+    <label for="">Password:
+      <input type="password" name="password:" value="">
+    </label>
+    <button type="submit" name="login">Login</button>
+  </form <!-- 2nd Way Inputs inside Label and form tag -->
+</div>
+
+<div class="">
+
+  <h2>2nd Way Inputs inside Label and form tag</h2>
+
+  <form>
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="1email" value="" autocomplete="email">
+    <label for="password">Password:</label>
+    <input id="password" type="password" name="1password">
+    <button type="submit" name="login">Login</button>
+
+  </form>
+
+</div>
+
+<div class="">
+  <h2>Authentication</h2>
+  <form >
+    <label for="m">Email:</label>
+    <input id="m" type="email" name="m" value="" required placeholder="Email" autocomplete="email">
+    <label for="p">Password:</label>
+    <input id="p" type="password" name="p" required placeholder="Password"value="" >
+    <button type="submit" name="button">SignIn</button>
+
+  </form>
+
+</div>
+
+
+
+</body>
+
+</html>
